@@ -1,0 +1,1326 @@
+.HomeSection {
+    height: 200px;
+    width: 330px;
+    background-color: #1d1c1c;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+
+#Spotify-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 8px;
+}
+
+.Spotify-bar {
+    margin-top: 20px;
+
+    width: 100px;
+    margin-left: 50px;
+}
+
+#Spotify-button {
+    color: white;
+    height: 24px;
+    width: 60px;
+    cursor: pointer;
+    background-color: #1d1c1c;
+    border: 0px;
+    padding-left: 0px;
+    font-weight: 600;
+}
+
+
+#home-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 8px;
+}
+
+.home-bar {
+    margin-top: 20px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+#home-button {
+    height: 24px;
+    width: 60px;
+    cursor: pointer;
+    background-color: #1d1c1c;
+    color: white;
+    border: 0px;
+    font-family: math;
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+.search-bar {
+    margin-top: 20px;
+    width: 100px;
+    margin-left: 50px;
+
+}
+
+#search-button {
+    height: 24px;
+    width: 60px;
+    cursor: pointer;
+    background-color: #1d1c1c;
+    color: white;
+    border: 0px;
+    font-family: math;
+    font-weight: bolder;
+    font-size: large;
+}
+
+#search-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 8px;
+}
+
+#library-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 8px;
+
+}
+
+#plus-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 8px;
+}
+
+.fstContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 10px 8px;
+}
+
+
+
+
+
+
+.CreateplaylistButtonContainer {
+    background-color: #242424;
+    border-radius: 15px;
+    margin: 8px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.CreateplaylistButtonContainer>h3 {
+    color: white;
+    font-family: sans-serif;
+    padding: 5px 0px 0px 5px;
+}
+
+.CreateplaylistButtonContainer>p {
+    color: white;
+    font-family: sans-serif;
+    padding: 0px 0px 0px 5px;
+}
+
+.CreateplaylistButtonContainer>button {
+    height: 40px;
+    width: 132px;
+    color: #000;
+    padding: 8px 32px 8px 8px;
+    border: 0px;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 500px;
+    padding: 0px 0px 0px 5px;
+}
+
+
+.CreatepodcastButtonContainer {
+    background-color: #242424;
+    border-radius: 15px;
+    margin: 8px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.CreatepodcastButtonContainer>h3 {
+    color: white;
+    font-family: sans-serif;
+    padding: 5px 0px 0px 5px;
+}
+
+.CreatepodcastButtonContainer>p {
+    color: white;
+    font-family: sans-serif;
+    padding: 0px 0px 0px 5px;
+}
+
+.CreatepodcastButtonContainer>button {
+    height: 40px;
+    width: 150px;
+    color: #000;
+    padding: 8px 32px 8px 8px;
+    border: 0px;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 500px;
+    padding: 0px 0px 0px 5px;
+}
+
+
+.majorside-bar {
+
+    height: 600px;
+    width: 450px;
+    background-color: #1d1c1c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.innerLHSideBar1>.fstContainer>a {
+    color: white;
+    text-decoration: none;
+    font-family: system-ui;
+    font-weight: 700;
+}
+
+.innerLHSideBar1 {
+
+    height: 500px;
+}
+
+
+/*header properties*/
+
+.header-right {
+    height: 200px;
+    width: 1300px;
+    border: 2px solid rgb(203, 209, 23);
+    background-color: #1a1919;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.header-container {
+    background-color: #201e1e;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 90vh;
+    
+    border: 2px solid #201e1e;
+
+}
+
+.main-section {
+    width: 1300px;
+    overflow: auto;
+    height: 722px;
+    background: linear-gradient(to bottom, #e08a50, #3d2519, #000000);
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+
+
+
+}
+
+.content-container {
+    display: flex;
+    background-color: red;
+}
+
+.frame {
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    border-radius: 100px;
+}
+
+
+
+/* playButton properties */
+.playButton {
+    background-color: #1ed760;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+
+
+    border: 0px;
+    cursor: pointer;
+}
+
+.playButton-icon {
+    width: 20px;
+    height: 20px;
+    margin: 6px 0px 4px 5px;
+    padding: 5px;
+
+
+}
+
+
+
+/* ArtistBar properties */
+.artistsFrameItems {
+    transition-property: all;
+    transition-duration: 150ms;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+    height: 250px;
+    width: 220px;
+    cursor: pointer;
+    position: relative;
+}
+
+.artistsBar {
+    height: 350px;
+    width: 1200px;
+}
+
+.ArtistProperties {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 100px;
+    cursor: pointer;
+
+}
+
+.PrimaryHeading {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40px;
+    color: white;
+
+}
+
+.artistsframe {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.artistsFrameItems>h3 {
+    color: white;
+    margin: auto;
+
+}
+
+.artistsFrameItems>div {
+    color: white;
+
+}
+
+.artistsFrameItems:hover {
+    background-color: #0000007a;
+}
+
+/* CardsCOntainer properties */
+
+.CardsContainer {
+    height: 500px;
+    width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overflow: auto;
+    grid-gap: 30px;
+}
+
+
+/*Searching bar properties*/
+.SearchingBar {
+    height: 40px;
+    width: 364px;
+    background-color: #242424;
+    border-radius: 500px;
+    padding: 6px 36px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 10px 0px 0px 10px;
+
+}
+
+.SearchingBar>img {
+    height: 18px;
+    width: 18px;
+    padding: 0px 6px 0px 2px;
+
+}
+
+
+#InputBar {
+    color: #fff;
+    background-color: #242424;
+    border: 0;
+    font-size: 16px;
+    outline: none;
+}
+
+/*Top button properties */
+
+
+
+
+/*Right hand side footer container properties*/
+
+.RHSFooterContainer a {
+    text-decoration: none;
+    color: #A7A7A7;
+    font-family: sans-serif;
+}
+
+.RHSFooterContainer li {
+    text-decoration: none;
+    list-style: none;
+    padding: 5px 0px 5px 0px;
+}
+
+.RHSFooterContainer h3 {
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.RHSFooterContainer {
+    background-color: #000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    width: 1300px;
+
+}
+
+.RHSFooterContainer img {
+    width: 24px;
+    height: 24px;
+}
+
+.RHSFooterContainer>.footer-icons {
+    height: 50px;
+    width: 140px;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+
+
+.lowerLHSideBar ul {
+
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+    flex-direction: column;
+
+}
+
+.lowerLHSideBar li {
+    color: #A7A7A7;
+    list-style: none;
+    font-family: sans-serif;
+
+}
+
+.lowerLHSideBar a {
+    color: #A7A7A7;
+    text-decoration: none;
+    font-family: sans-serif;
+
+
+}
+
+.Language-btn img {
+    width: 16px;
+    height: 16px;
+    padding: 5px 0px 0px 5px;
+}
+
+.Language-btn button {
+    background-color: #1d1c1c;
+    color: white;
+    border: 0px;
+}
+
+.Language-btn {
+    border: 2px solid rgb(92 84 84 / 58%);
+    display: flex;
+    width: 90px;
+    border-radius: 15px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+
+
+.OuterMostContainer {
+    display: flex;
+    background-color: black;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+/*TopRightHeader properties*/
+
+.TopRightHeader {
+    display: flex;
+    justify-content: right;
+}
+
+
+/*Artist frame properties*/
+.ArtistFrame {
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+/*verified icon properties*/
+
+#verified-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.VerifiedBar {
+    display: flex;
+    width: fit-content;
+}
+
+.VerifiedBar h3 {
+    margin-top: 0px;
+    padding-left: 5px;
+
+}
+
+.ArtistHeadings h1 {
+    margin: 0px 0px 0px 0px;
+    font-size: 70px;
+}
+
+.ArtistHeadings h2 {
+    margin: 0px 0px 0px 0px;
+}
+
+.ArtistHeadings {
+    height: max-content;
+}
+
+.FollowBar {
+    display: flex;
+    align-items: center;
+    width: 230px;
+    justify-content: space-around;
+}
+
+#followButton {
+    border-radius: 15px;
+    width: 80px;
+    height: 33.2px;
+    border: none;
+
+}
+
+#threeDots {
+    width: 30px;
+}
+
+.SongIcons {
+    width: 40px;
+    height: 40px;
+    margin-left: 0;
+}
+
+.Songs {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    padding-left: 2rem;
+    margin: 20px 0px 20px 40px;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+}
+
+.Songs a {
+    color: white;
+    text-decoration: none;
+}
+
+.songs p {
+    display: block;
+}
+
+.songframe {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+
+
+#SongPlayButton {
+    width: 12px;
+    height: 12px;
+}
+
+#VolumeButton {
+    background-color: #000;
+    cursor: pointer;
+    width: 144.76px;
+    height: 24.4px;
+}
+
+#controls {
+    display: flex;
+    gap: 5px;
+}
+
+#volumeBarContainer {
+    width: 100px;
+    height: 4px;
+    background-color: #ccc;
+    position: relative;
+    cursor: pointer;
+    margin-left: 13px;
+    border-radius: 15px;
+}
+
+#volumeBar {
+    height: 100%;
+    width: 50%;
+    background-color: #fefafa;
+    transition: all 0.5ms ease-in 0.5ms;
+    border-radius: 15px;
+}
+
+#volumeBar:hover,
+#volumeBar:active {
+    background-color: #16be52;
+}
+
+#songFunctioning {
+    background-color: black;
+    height: 75px;
+    width: -webkit-fill-available;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0px;
+}
+
+#songFunctioning #buttonsContainer {
+    height: 37px;
+    width: 37px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#songFunctioning #buttonsContainer img {
+    height: 20px;
+    width: 16px;
+    margin: 8px 0px 2px 12px;
+}
+
+#songFunctioning #center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+    width: 600px;
+}
+
+
+
+
+#songFunctioning #right img {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+
+}
+
+#songFunctioning #right {
+    display: flex;
+    align-items: center;
+    height: max-content;
+    width: 150px;
+
+}
+
+#songFunctioning #img1 {
+    height: 56px;
+    width: 56px;
+}
+
+#songFunctioning #img2 {
+    height: 16px;
+    width: 16px;
+}
+
+#songFunctioning #left {
+    display: flex;
+    align-items: center;
+    width: 442px;
+    height: 61px;
+    justify-content: space-around;
+}
+
+#songFunctioning #songContent {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#songFunctioning #songContent h4 {
+    line-height: 0px;
+    color: rgb(252, 248, 248);
+}
+
+#songFunctioning #songContent p {
+
+    color: rgba(255, 255, 255, 0.616);
+}
+
+#timelineBarContainer {
+    width: 500px;
+    height: 4px;
+    background-color: #ccc;
+    position: relative;
+    cursor: pointer;
+    margin-left: 13px;
+    border-radius: 15px;
+
+}
+
+#timelineBar {
+    height: 100%;
+    width: 0%;
+    background-color: #fefafa;
+    transition: all 0.5ms ease-in 0.5ms;
+    border-radius: 15px;
+}
+
+#timelineContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Default navbar styles */
+.navbar-ul {
+    display: grid;
+    grid-template-columns: 3fr 2.5fr repeat(3, 0.5fr);
+    gap: 10px;
+    background: black;
+    width: 100%;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-ul li {
+
+    color: white;
+    text-align: center;
+    padding: 10px;
+    list-style: none;
+}
+
+#navIcon {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 30px;
+    top: 13px;
+}
+
+#Search-bar {
+    border: 2px solid #444;
+    border-radius: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    color: #c9c1c1e3;
+    width: 100%;
+}
+
+#Search-bar img {
+    height: 25px;
+    width: 25px;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+#ExplorePremiumBtn {
+    background-color: rgb(251, 245, 245);
+    font: black;
+    border-radius: 20px;
+    width: 150px;
+    height: 35px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#ExplorePremiumBtn:hover {
+    background-color: #ffffff;
+    transform: scale(1.04);
+
+}
+
+#NavInstallApp {
+    color: #c9c1c1e3;
+    cursor: pointer;
+    margin: auto;
+}
+
+#NavInstallApp:hover {
+    color: white;
+    transform: scale(1.04);
+}
+
+#bellId {
+    height: 30px;
+    width: 30px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+#bellId:hover {
+    transform: scale(1.04);
+}
+
+#Major {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Number {
+    width: 30px;
+    text-align: center;
+}
+
+.lowerLHSideBar ul li{
+    width: 200px;
+    margin: auto;
+}
+
+
+/* Add these responsive styles at the end of your existing CSS */
+
+@media screen and (max-width: 768px) {
+    .navbar-ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .navbar-ul li {
+        padding: 5px;
+    }
+
+    /* Hide Explore Premium and bell icon */
+    #ExplorePremiumBtn,
+    #bellId {
+        display: none;
+    }
+
+    /* Adjust Search bar to take available space */
+    #Search-bar {
+        flex-grow: 1;
+        margin: 0 10px;
+
+    }
+
+    /* Resize Spotify logo */
+    #navIcon {
+        width: 28px;
+        height: 28px;
+        position: static;
+        margin-right: 10px;
+    }
+
+    /* Adjust Install App button position */
+    #NavInstallApp {
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Stack main-section on top */
+    .OuterMostContainer {
+        flex-direction: column;
+        height: auto !important
+    }
+
+    /* Reduce width for responsiveness */
+    .main-section {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        order: 1;
+        margin-top: 70px;
+    }
+
+    .header-container {
+        height: auto;
+        order: 2;
+    }
+
+
+    /* ArtistFrame center-aligned with image on top */
+    .ArtistFrame {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .ArtistFrame .ArtistProperties {
+        width: 160px;
+        height: 160px;
+        margin-bottom: 10px;
+    }
+
+    .VerifiedBar {
+        justify-content: center;
+    }
+
+    .ArtistHeadings h1 {
+        font-size: 28px;
+    }
+
+    .ArtistHeadings h2 {
+        font-size: 14px;
+    }
+
+    .SongContainer {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .ClassForResponsiveness {
+        display: none;
+    }
+
+    .SongContainer,
+    .Songs,
+    .songframe {
+        max-width: 100% !important;
+        width: 100% !important;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    
+    .songframe {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #songFunctioning {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        flex-direction: row;
+    }
+
+    #left {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #img1 {
+        width: 48px;
+        height: 48px;
+    }
+
+    #songContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #songContent h4 {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    #songContent p {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    #center {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    #buttonsContainer {
+        height: 32px;
+        width: 32px;
+        margin-left: 20px;
+        margin-top: 4px;
+    }
+
+    #buttonsContainer img {
+        width: 16px;
+        height: 16px;
+        margin: 8px;
+    }
+
+    #img2,
+    #right
+    {
+        display: none !important;
+    }
+    #timelineContainer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw; 
+        background-color: #000;
+        padding: 5px 10px;
+        box-sizing: border-box;
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #timelineBarContainer {
+        flex: 1;
+        margin: 0 10px;
+        height: 4px;
+        background-color: #ccc;
+        border-radius: 15px;
+        position: relative;
+    }
+    
+    #timelineBar {
+        background-color: #1ed760;
+        height: 100%;
+        width: 0%;
+        border-radius: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-container {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .HomeSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .Spotify-bar,
+    .home-bar,
+    .search-bar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        margin: 10px 0;
+    }
+
+    #Spotify-button,
+    #home-button,
+    #search-button {
+        text-align: center;
+        width: auto;
+    }
+
+    .innerLHSideBar1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .innerLHSideBar1 .fstContainer {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    
+    .CreateplaylistButtonContainer,
+    .CreatepodcastButtonContainer {
+        width: 90%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .header-container {
+        width: 100%;
+    }
+    
+    .majorside-bar {
+        width: 100%;
+    }
+    
+    .innerLHSideBar1 {
+        width: 100%;
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+    .navbar-ul {
+        flex-wrap: nowrap;
+        padding: 10px;
+    }
+
+    #Search-bar {
+        font-size: 14px;
+        height: 36px;
+    }
+
+    #Search-bar img {
+        width: 20px;
+        height: 20px;
+    }
+
+    #NavInstallApp {
+        font-size: 14px;
+    }
+
+    .OuterMostContainer {
+        flex-direction: column;
+        height: auto !important;
+    }
+
+    .main-section {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        order: 1;
+    }
+
+    .header-container {
+        width: 100%;
+        height: auto;
+        order: 2;
+    }
+
+    .ArtistFrame {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .ArtistFrame .ArtistProperties {
+        width: 140px;
+        height: 140px;
+        margin-bottom: 10px;
+    }
+
+    .VerifiedBar {
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+
+    .ArtistHeadings h1 {
+        font-size: 24px;
+    }
+
+    .ArtistHeadings h2 {
+        font-size: 12px;
+    }
+
+    .SongContainer {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+    .ClassForResponsiveness {
+        display: none;
+    }
+
+    .SongContainer,
+    .Songs,
+    .songframe {
+        max-width: 100% !important;
+        width: 100% !important;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        margin-left: 0px;
+    }
+    
+    .songframe {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    #img1 {
+        width: 40px;
+        height: 40px;
+    }
+
+    #buttonsContainer {
+        height: 28px;
+        width: 28px;
+        margin-left: 16px;
+    }
+
+    #buttonsContainer img {
+        width: 14px;
+        height: 14px;
+        margin: 7px;
+    }
+
+    #songFunctioning #left {
+        flex: none;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        width: calc(100% - 60px); /* leave space for the play/pause button */
+    }
+    
+    #songContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 200px; /* ✅ Lock max width */
+    }
+    
+    #songContent h4 {
+        white-space: nowrap;
+
+        font-size: 13px;
+        width: 200px; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header-container {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .HomeSection {
+        align-items: center;
+        width: 100%;
+    }
+
+    .Spotify-bar,
+    .home-bar,
+    .search-bar {
+        width: 100%;
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    #Spotify-icon,
+    #home-icon,
+    #search-icon {
+        margin-right: 6px;
+    }
+
+    #Spotify-button,
+    #home-button,
+    #search-button {
+        font-size: 14px;
+        width: auto;
+    }
+
+    .innerLHSideBar1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .innerLHSideBar1 .fstContainer {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    
+    .CreateplaylistButtonContainer,
+    .CreatepodcastButtonContainer {
+        width: 90%;
+        text-align: center;
+        align-items: center;
+    }
+    
+
+
+}

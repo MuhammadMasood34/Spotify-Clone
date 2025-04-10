@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color:black;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="navbar-ul">
+            <li><img src="images/spotify.256x256.png" alt="#" id="navIcon"></li>
+            <li>
+                <div id="Search-bar">
+                    <img src="images/search2.svg" alt="#">
+                    What do you want to play?
+                </div>
+            </li>
+            <li><button id="ExplorePremiumBtn">Explore Premimum</button></li>
+            <li id="NavInstallApp">Install App</li>
+            <li><img src="images/bell-alarm.svg" alt="#" id="bellId"></li>
+
+        </ul>
+    </nav>
+
+    <div class="OuterMostContainer">
+        <div class="header-container">
+            <section class="HomeSection">
+                <div class="Spotify-bar">
+                    <img id="Spotify-icon" src="images/spotify.png" alt="#">
+                    <button id="Spotify-button">Spotify</button>
+                </div>
+                <div class="home-bar">
+
+                    <img id="home-icon" src="images/home (2).png" alt="#">
+                    <button id="home-button" onclick="testing()">Home</button>
+                </div>
+                <div class="search-bar">
+                    <img id="search-icon" src="images/search.png" alt="#">
+                    <button id="search-button">Search</button>
+                </div>
+
+            </section>
+            <aside class="majorside-bar">
+                <div class="innerLHSideBar1">
+
+                    <div class="fstContainer">
+                        <a href="#">
+                            <img src="images/bookmark.svg" alt="#" id="library-icon">
+                            Your Library
+                        </a>
+                        <img src="images/plus.252x256.png" alt="#" id="plus-icon">
+                    </div>
+                    <div class="CreateplaylistButtonContainer">
+                        <h3>Create your first Playlist</h3>
+                        <p>Its easy we will help you</p>
+                        <button>Create Playlist</button>
+                    </div>
+                    <div class="CreatepodcastButtonContainer">
+                        <h3>Lets find some podcasts to follow</h3>
+                        <p>we will keep you updated on new episodes</p>
+                        <button>Create Podcast</button>
+                    </div>
+                </div>
+                <div class="lowerLHSideBar">
+                    <ul>
+                        <li><a href="#">legal</a></li>
+                        <li><a href="#">Safety & Privacy Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">About Ads</a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+
+                </div>
+            </aside>
+        </div>
+        <section class="main-section">
+            <div class="ArtistFrame">
+                <img src="images/arjitSingh.jpg" alt="#" class="ArtistProperties">
+                <div class="ArtistHeadings">
+                    <div class="VerifiedBar">
+                        <img src="images/verified.svg" alt="#" id="verified-icon">
+                        <h3>Verified Artist</h3>
+                    </div>
+                    <h1>Arjit Singh</h1>
+                    <h2>39,691,537 monthly listeners</h2>
+                </div>
+            </div>
+            <div class="FollowBar">
+                <button class="playButton">
+                    <img class="playButton-icon" src="images/playButton.png" alt="">
+                </button>
+                <button id="followButton">Follow</button>
+                <img src="images/three-dots.256x64.png" alt="#" id="threeDots">
+            </div>
+            <h1>Popular</h1>
+            <div class="SongContainer">
+                <div class="Songs" id="SatrangaSong"
+                    onclick="SongChanger('Satranga','Satranga From ANIMAL','Arjit Singh,Shreyas Puranik,Siddharth-Garima','SatrangaMusic')">
+
+                    <div class="songframe">
+                        <div class="Number">1</div>
+                        <img src="images/Satranga.JPG" alt="#" class="SongIcons">
+                        <h4>Satranga(From "ANIMAL")</h4>
+                    </div>
+                    <p class="ClassForResponsiveness">204,588,357</p>
+                    <p class="ClassForResponsiveness">4:31</p>
+                    <audio id="audioPlayer" src="Songs/SatrangaMusic.mp3"></audio>
+                </div>
+                <div class="Songs" id="SajniSong"
+                    onclick="SongChanger('Sajni','Sajni From Laapataa Ladies','Shafqat Amanat Ali, Shankar-Ehsaan-Loy, Sameer','Sajni Laapataa')">
+
+                    <div class="songframe">
+                        <div class="Number">2</div>
+                        <img src="images/Sajni.JPG" alt="#" class="SongIcons">
+                        <h4 >Sajni(From "Laapataa Ladies")</h4>
+                    </div>
+                    <p class="ClassForResponsiveness">104,588,357</p>
+                    <p class="ClassForResponsiveness">2:50</p>
+                </div>
+                <div class="Songs" id="SoulmateSong"
+                    onclick="SongChanger('Soulmate','Soulmate From Album Ek Tha Raja','Armaan Malik, Kunaal Vermaa, Sourav Roy','Soulmate Song')">
+
+                    <div class="songframe">
+                        <div class="Number">3</div>
+                        <img src="images/Soulmate.JPG" alt="#" class="SongIcons">
+                        <h4>Soulmate (From "Ek Tha Raja")</h4>
+                    </div>
+                    <p class="ClassForResponsiveness">705,588,659</p>
+                    <p class="ClassForResponsiveness">3:33</p>
+                </div>
+                <div class="Songs" id="ChalleyaSong"
+                    onclick="SongChanger('Challeya','Challeya From Jawan','Arijit Singh, Shilpa Rao, Kumaar, Anirudh Ravichander','Chaleya Jawan')">
+
+                    <div class="songframe">
+                        <div class="Number">4</div>
+                        <img src="images/Challeya.JPG" alt="#" class="SongIcons">
+                        <h4>Challeya (From "Jawan")</h4>
+                    </div>
+                    <p class="ClassForResponsiveness">404,588,354</p>
+                    <p class="ClassForResponsiveness">3:20</p>
+                </div>
+                <div class="Songs" id="OMahiSong"
+                    onclick="SongChanger('O mahi','O mahi From Dunki',' Vishal Mishra, Asees Kaur, Irshad Kamil','O Maahi Song')">
+
+                    <div class="songframe">
+                        <div class="Number">5</div>
+                        <img src="images/O mahi.JPG" alt="#" class="SongIcons">
+                        <h4>O mahi (From "Dunki")</h4>
+                    </div>
+                    <p class="ClassForResponsiveness">304,588,356</p>
+                    <p class="ClassForResponsiveness">3:53</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div id="songFunctioning">
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
